@@ -2,6 +2,7 @@ function insertOszlop() {
     document.querySelector('.TanuloErtekelesGrid thead tr').innerHTML +=
         `
         <th class="k-header atlag" scope="col"><span class="k-link">Megbukáshoz</span></th>
+        <th class="k-header atlag" scope="col"><span class="k-link">4.59+</span></th>
         `
 }
 
