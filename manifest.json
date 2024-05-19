@@ -1,0 +1,22 @@
+{
+    "name": "eKreta Extension",
+    "description": "Egy kiegészítő eKréta web felületéhez.",
+    "author": "Serwenyi",
+    "version": "1.0.0",
+    "manifest_version": 3,
+
+    "permissions": [
+        "activeTab",
+        "storage",
+        "tabs",
+        "scripting"
+    ],
+
+    "host_permissions": [
+        "<all_urls>"
+    ],
+
+    "background": {
+        "service_worker": "background.js"
+    }
+}
