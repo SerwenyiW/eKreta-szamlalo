@@ -68,7 +68,7 @@ function mennyiEgyesKell(lista) {
     let darabSzam = 0
     while (atlag(ideiglenesLista) > 1.99) {
         darabSzam++
-        ideiglenesLista.push(5)
+        ideiglenesLista.push(1)
     }
     return darabSzam
 }
@@ -78,7 +78,7 @@ function mennyiOtosKell(lista) {
     let darabSzam = 0
     while (atlag(ideiglenesLista) > 4.59) {
         darabSzam++
-        ideiglenesLista.push(1)
+        ideiglenesLista.push(5)
     }
     return darabSzam
 }
